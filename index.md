@@ -87,12 +87,26 @@ The platform is actively evolving. Planned and in-progress capabilities include:
 
 ## Contributors
 
-This platform is a collaborative effort spanning data engineering, machine learning, and policy analysis.
+The Legislative Intelligence Platform is a collaborative effort spanning data engineering, machine learning, AI-driven analysis, and policy research.
 
-- Project Lead: Tayler Erbe  
-- Visualization and Trend Analysis: Rujida
+**Project Lead:**  
+Tayler Erbe, Data Scientist
 
-Additional contributors will be added as the project evolves.
+**Pipeline Design, Data Ingestion, and Full Platform Development:**  
+Tejasri Joshi
+
+**Search and Filtering Interfaces:**  
+Tanvi Lakhani
+
+**AI Chatbots and Agent Development:**  
+Pramod Joshi
+
+**Legislative Trend Analysis and Probability of Passage Research:**  
+Ruchita Alate  
+- Conducted research and development on legislative trend analysis and predictive modeling related to probability of passage
+
+Additional contributors and collaborators will be acknowledged as the platform continues to evolve.
+
 
 ---
 
