@@ -26,10 +26,10 @@ At a high level, the system follows an end-to-end analytical pipeline:
 
 3. **AI-Based Feature Extraction**  
    Large language models (LLaMA) are used to extract structured attributes, including:
-   - Policy categories
-   - Legislative goals
-   - Intended beneficiaries
-   - Indicators of potential university impact
+   - Policy categories  
+   - Legislative goals  
+   - Intended beneficiaries  
+   - Indicators of potential university impact  
 
 4. **Scoring and Categorization**  
    Extracted features are normalized into scores, tags, and metadata that support comparison, filtering, and analysis.
@@ -46,9 +46,9 @@ At a high level, the system follows an end-to-end analytical pipeline:
 An interactive interface for exploring legislative data using extracted features and metadata.
 
 Capabilities include:
-- Filtering by policy area and impact indicators
-- Building custom subsets of legislation
-- Inspecting AI-extracted attributes directly
+- Filtering by policy area and impact indicators  
+- Building custom subsets of legislation  
+- Inspecting AI-extracted attributes directly  
 
 **Launch the Search Interface:**  
 https://huggingface.co/spaces/ralate2/Legislation_Dashboard
@@ -60,8 +60,8 @@ https://huggingface.co/spaces/ralate2/Legislation_Dashboard
 A visualization-focused interface for exploring trends and patterns across legislation.
 
 Current work includes:
-- Trend analysis across time and policy categories
-- Early signal detection and exploratory visualizations
+- Trend analysis across time and policy categories  
+- Early signal detection and exploratory visualizations  
 
 *Note: This component is actively under development.*
 
@@ -106,7 +106,6 @@ Ruchita Alate
 - Conducted research and development on legislative trend analysis and predictive modeling related to probability of passage
 
 Additional contributors and collaborators will be acknowledged as the platform continues to evolve.
-
 
 ---
 
