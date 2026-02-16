@@ -1,116 +1,106 @@
-# Legislative Intelligence Platform
+# UIUC Legislative Intelligence Platform
 
-A centralized hub for analyzing legislative text and assessing potential impacts on the University of Illinois.
+## AI-Powered Legislative Intelligence for Strategic University Decision Support
+
+The Legislative Intelligence Platform transforms raw legislative text into structured, actionable intelligence to help the University of Illinois understand policy direction, emerging trends, and institutional impact.
+
+This site serves as the central gateway to the platform’s tools, analytics, and ongoing development.
 
 ---
 
-## Overview
+## Platform Access
 
-The Legislative Intelligence Platform brings together data engineering, machine learning, and policy analysis to transform raw legislative text into structured, actionable insights.
+### Search and Filter Interface
 
-The platform is designed to support exploration, trend analysis, and decision support by enabling users to search, filter, and analyze legislation using AI-extracted features and metadata.
+Explore legislation using AI-extracted attributes including policy categories, legislative intent, beneficiaries, ideological alignment, and institutional impact indicators.
 
-This site serves as the primary entry point to the platform’s tools, documentation, and ongoing development efforts.
+[Launch Search Interface](https://huggingface.co/spaces/ralate2/Legislation_Dashboard){: .btn }
+
+---
+
+### Trends and Visualization Dashboard
+
+Analyze legislative activity across time, policy domains, and impact signals. Identify patterns, momentum shifts, and emerging areas of influence.
+
+[Launch Visualization Dashboard](https://huggingface.co/spaces/tjl8/legislationv2-2226){: .btn }
+
+---
+
+### Conversational AI Interface (In Development)
+
+Interact directly with the legislative dataset using natural language. Ask targeted or exploratory questions and receive structured, context-aware responses derived from AI-extracted features.
+
+*Status: Under active development*
+
+---
+
+### Network and Influence Graphs (In Development)
+
+Visualize relationships between legislative intent, beneficiaries, policy domains, and cross-state influence patterns to support advanced trend modeling and strategic analysis.
+
+*Status: Under active development*
 
 ---
 
 ## How the Platform Works
 
-At a high level, the system follows an end-to-end analytical pipeline:
+The system follows an end-to-end analytical pipeline:
 
-1. **Data Ingestion**  
-   Legislative text is collected from external sources and stored in a structured, queryable format.
+### 1. Data Ingestion
+Legislative text is collected from external sources and standardized into a structured, queryable format.
 
-2. **Document Chunking**  
-   Bills are segmented into smaller, meaningful units to support retrieval, analysis, and large-language-model processing.
+### 2. Document Chunking
+Bills are segmented into structured units to support retrieval and large-language-model processing.
 
-3. **AI-Based Feature Extraction**  
-   Large language models (LLaMA) are used to extract structured attributes, including:
-   - Policy categories  
-   - Legislative goals  
-   - Intended beneficiaries  
-   - Indicators of potential university impact  
+### 3. AI-Based Feature Extraction
+Large language models are used to extract structured attributes including:
 
-4. **Scoring and Categorization**  
-   Extracted features are normalized into scores, tags, and metadata that support comparison, filtering, and analysis.
+- Legislative goals  
+- Policy domains and subcategories  
+- Intended beneficiaries  
+- Institutional impact indicators  
+- Ideological alignment  
+- Impact ratings  
 
-5. **Exploration and Analysis**  
-   The resulting data can be explored through interactive search, filtering tools, and visual analytics.
+### 4. Scoring and Normalization
+Extracted features are standardized into structured metadata to enable filtering, comparison, and analytics.
 
----
-
-## Platform Components
-
-### 🔍 Search and Filter Interface
-
-An interactive interface for exploring legislative data using extracted features and metadata.
-
-Capabilities include:
-- Filtering by policy area and impact indicators  
-- Building custom subsets of legislation  
-- Inspecting AI-extracted attributes directly  
-
-**Launch the Search Interface:**  
-https://huggingface.co/spaces/ralate2/Legislation_Dashboard
+### 5. Interactive Exploration
+Users access search tools, dashboards, and visualization components to explore legislative intelligence at scale.
 
 ---
 
-### 📊 Trends and Visual Analytics
+## Platform Vision
 
-A visualization-focused interface for exploring trends and patterns across legislation.
+The Legislative Intelligence Platform is designed to evolve into a comprehensive institutional intelligence system capable of:
 
-Current work includes:
-- Trend analysis across time and policy categories  
-- Early signal detection and exploratory visualizations  
-
-*Note: This component is actively under development.*
-
-**Launch the Visualization Interface:**  
-https://huggingface.co/spaces/tjl8/legislationv2-2226
-
----
-
-## In Progress and Upcoming Work
-
-The platform is actively evolving. Planned and in-progress capabilities include:
-
-- **Conversational AI Access**  
-  Chat directly with the legislative dataset to ask targeted and exploratory questions.
-
-- **AI-Assisted Report Generation**  
-  Generate summaries and reports based on user-defined criteria and analytical goals.
-
-- **Advanced Trend and Influence Modeling**  
-  Identify emerging legislative signals and explore cross-policy and cross-state influence patterns.
+- Early signal detection  
+- Cross-policy and cross-state influence modeling  
+- Probability-of-passage research  
+- AI-assisted executive reporting  
+- Institutional risk monitoring  
 
 ---
 
 ## Contributors
 
-The Legislative Intelligence Platform is a collaborative effort spanning data engineering, machine learning, AI-driven analysis, and policy research.
+**Project Lead**  
+Tayler Erbe, Data Scientist  
 
-**Project Lead:**  
-Tayler Erbe, Data Scientist
+**Pipeline Architecture and Data Engineering**  
+Tejasri Joshi  
 
-**Pipeline Design, Data Ingestion, and Full Platform Development:**  
-Tejasri Joshi
+**Search and Filtering Interfaces**  
+Tanvi Lakhani  
 
-**Search and Filtering Interfaces:**  
-Tanvi Lakhani
+**AI Chatbot and Agent Development**  
+Pramod Joshi  
 
-**AI Chatbots and Agent Development:**  
-Pramod Joshi
-
-**Legislative Trend Analysis and Probability of Passage Research:**  
+**Legislative Trend Analysis and Predictive Modeling Research**  
 Ruchita Alate  
-- Conducted research and development on legislative trend analysis and predictive modeling related to probability of passage
-
-Additional contributors and collaborators will be acknowledged as the platform continues to evolve.
 
 ---
 
-## Contact and Feedback
+## Contact
 
-Questions, feedback, and collaboration inquiries are welcome.
-
-Please contact the project team for additional information.
+For collaboration, research partnerships, or technical inquiries, please contact the project team.
