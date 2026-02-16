@@ -84,20 +84,22 @@ The Legislative Intelligence Platform is designed to evolve into a comprehensive
 
 ## Contributors
 
-**Project Lead**  
+**Platform Architect and Technical Lead**  
 Tayler Erbe, Data Scientist  
 
-**Pipeline Architecture and Data Engineering**  
-Tejasri Joshi  
+**Lead Data Engineer and Pipeline Architect**  
+Tejasri Joshi, Data Science Analyst  
 
-**Search and Filtering Interfaces**  
-Tanvi Lakhani  
+**Lead Engineer, Retrieval-Augmented Search Systems**  
+Tanvi Lakhani, Data Science Analyst  
 
-**AI Chatbot and Agent Development**  
-Pramod Joshi  
+**Lead, Predictive Modeling and Policy Analytics**  
+Ruchita Alate, Data Science Analyst  
 
-**Legislative Trend Analysis and Predictive Modeling Research**  
-Ruchita Alate  
+**AI Solutions Team Lead and Conversational AI Systems Lead**  
+Pramod Joshi, AI Coordinator (Lead)
+
+
 
 ---
 
