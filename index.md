@@ -104,7 +104,7 @@ Tayler Erbe, Data Scientist
 **Lead Data Engineer and Pipeline Architect**  
 Tejasri Joshi, Data Science Analyst  
 
-**Lead Engineer, Retrieval-Augmented Search Systems**  
+**Lead AI Engineer, Retrieval-Augmented Search Systems**  
 Tanvi Lakhani, Data Science Analyst  
 
 **Lead, Predictive Modeling and Policy Analytics**  
@@ -112,8 +112,6 @@ Ruchita Alate, Data Science Analyst
 
 **AI Solutions Team Lead and Conversational AI Systems Lead**  
 Pramod Joshi, AI Coordinator (Lead)
-
-
 
 ---
 
