@@ -14,7 +14,14 @@ This site serves as the central gateway to the platform’s tools, analytics, an
 
 Explore legislation using AI-extracted attributes including policy categories, legislative intent, beneficiaries, ideological alignment, and institutional impact indicators.
 
-[Launch Search Interface](https://huggingface.co/spaces/ralate2/Legislation_Dashboard){: .btn }
+<p>
+  <a href="https://huggingface.co/spaces/ralate2/Legislation_Dashboard" target="_blank">
+    <button style="padding:12px 20px; font-size:16px; background-color:#2b6cb0; color:white; border:none; border-radius:6px; cursor:pointer;">
+      Launch Search Interface
+    </button>
+  </a>
+</p>
+
 
 ---
 
@@ -22,7 +29,14 @@ Explore legislation using AI-extracted attributes including policy categories, l
 
 Analyze legislative activity across time, policy domains, and impact signals. Identify patterns, momentum shifts, and emerging areas of influence.
 
-[Launch Visualization Dashboard](https://huggingface.co/spaces/tjl8/legislationv2-2226){: .btn }
+<p>
+  <a href="https://huggingface.co/spaces/tjl8/legislationv2-2226" target="_blank">
+    <button style="padding:12px 20px; font-size:16px; background-color:#2b6cb0; color:white; border:none; border-radius:6px; cursor:pointer;">
+      Launch Visualization Dashboard
+    </button>
+  </a>
+</p>
+
 
 ---
 
