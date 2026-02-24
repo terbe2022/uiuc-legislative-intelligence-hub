@@ -35,6 +35,9 @@ Potential UI impacts (clearly marked as interpretation)
 Citations / bill references
 
 <p> <a href="https://copilotstudio.microsoft.com/environments/Default-44467e6f-462c-4ea2-823f-7800de5434e3/bots/copilots_header_bee2b/webchat?__version__=2" target="_blank"> <button style="padding:12px 20px; font-size:16px; background-color:#2f855a; color:white; border:none; border-radius:6px; cursor:pointer;"> Launch Legislative Assistant </button> </a> </p>
+
+Please test the agent and share feedback regarding response clarity, structure, or edge cases.
+
 Network and Influence Graphs (In Development)
 
 Visualize relationships between legislative goals, beneficiaries, policy domains, and institutional impact patterns to support advanced trend modeling and strategic analysis.
@@ -82,7 +85,7 @@ Ideological Alignment – Inferred ideological framing when identifiable.
 
 Potential Impact – Concise assessment of possible implications for UIUC.
 
-Impact Rating – Structured impact level (Very, Moderate, Slight, Not Impactful).
+Impact Rating – Structured impact level (Very Impactful, Moderately Impactful, Slightly Impactful, Not Impactful).
 
 Intent – One-sentence articulation of legislative purpose.
 
@@ -146,7 +149,3 @@ Ruchita Alate, Data Science Analyst
 
 AI Solutions Team Lead and Conversational AI Systems Lead
 Pramod Joshi, AI Coordinator (Lead)
-
-Contact
-
-For collaboration, research partnerships, or technical inquiries, please contact the project team.
