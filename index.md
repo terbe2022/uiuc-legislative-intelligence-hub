@@ -22,7 +22,6 @@ Explore legislation using AI-extracted attributes including policy categories, l
   </a>
 </p>
 
-
 ---
 
 ### Trends and Visualization Dashboard
@@ -37,14 +36,32 @@ Analyze legislative activity across time, policy domains, and impact signals. Id
   </a>
 </p>
 
-
 ---
 
-### Conversational AI Interface (In Development)
+### Legislative Assistant (Conversational AI Interface)
 
-Interact directly with the legislative dataset using natural language. Ask targeted or exploratory questions and receive structured, context-aware responses derived from AI-extracted features.
+The Legislative Assistant is now available for testing.
 
-*Status: Under active development*
+The assistant leverages the most recent vectorized legislative dataset (including chunked text with reduced outliers) to provide structured, citation-backed responses to natural language queries.
+
+For this proof of concept (POC), responses are structured in the following format:
+
+- **Short answer** (1–3 sentences)  
+- **What the bill does** (plain language bullet points)  
+- **Where it applies / who it affects** (bullet points)  
+- **Key dates & status** (as available from source data)  
+- **Potential UI impacts** (clearly marked as interpretation)  
+- **Citations / bill references** (bill number, version date if available, relevant section numbers)
+
+<p>
+  <a href="https://copilotstudio.microsoft.com/environments/Default-44467e6f-462c-4ea2-823f-7800de5434e3/bots/copilots_header_bee2b/webchat?__version__=2" target="_blank">
+    <button style="padding:12px 20px; font-size:16px; background-color:#2f855a; color:white; border:none; border-radius:6px; cursor:pointer;">
+      Launch Legislative Assistant
+    </button>
+  </a>
+</p>
+
+Please test the agent and share feedback regarding response clarity, structure, or edge cases.
 
 ---
 
@@ -80,7 +97,7 @@ Large language models are used to extract structured attributes including:
 Extracted features are standardized into structured metadata to enable filtering, comparison, and analytics.
 
 ### 5. Interactive Exploration
-Users access search tools, dashboards, and visualization components to explore legislative intelligence at scale.
+Users access search tools, dashboards, visualization components, and conversational AI tools to explore legislative intelligence at scale.
 
 ---
 
