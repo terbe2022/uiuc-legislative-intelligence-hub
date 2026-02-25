@@ -47,6 +47,8 @@ Responses are structured as:
 
 Visualize relationships between legislative goals, beneficiaries, policy domains, and institutional impact patterns to support advanced trend modeling and strategic analysis.
 
+[View Interactive Legislative Network Graphs →](https://tayler-erbe.github.io/Legislative-Network-Graphs/)
+
 *Status: Under active development*
 
 ---
@@ -131,20 +133,20 @@ The Legislative Intelligence Platform is designed to evolve into a comprehensive
 
 ## Contributors
 
-**Platform Architect and Technical Lead**  
+**Platform Architect & Technical Lead**  
 Tayler Erbe, Data Scientist  
 
-**Lead Data Engineer and Pipeline Architect**  
+**AI Solutions Team Lead & AI Chatbot Lead**  
+Pramod Joshi, AI Coordinator  
+
+**Data Engineering & Pipeline Architecture Lead**  
 Tejasri Joshi, Data Science Analyst  
 
-**Lead AI Engineer, Retrieval-Augmented Search Systems**  
+**AI Engineer, Retrieval-Augmented Search Systems**  
 Tanvi Lakhani, Data Science Analyst  
 
-**Lead, Predictive Modeling and Policy Analytics**  
-Ruchita Alate, Data Science Analyst  
-
-**AI Solutions Team Lead and Conversational AI Systems Lead**  
-Pramod Joshi, AI Coordinator (Lead)
+**Predictive Modeling & Policy Analytics Analyst**  
+Ruchita Alate, Data Science Analyst 
 
 ---
 
