@@ -55,6 +55,14 @@ Visualize relationships between legislative goals, beneficiaries, policy domains
 
 ## How the Platform Works
 
+### End-to-End System Workflow
+
+View the complete architectural workflow diagram below:
+
+[Open Full Workflow Diagram (Mermaid)](https://mermaid.ai/d/992dd461-52b4-4677-aee1-7e2746aff522)
+
+---
+
 The system follows an end-to-end analytical pipeline:
 
 ### 1. Data Ingestion
