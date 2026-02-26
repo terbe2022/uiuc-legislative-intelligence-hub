@@ -2,9 +2,11 @@
 
 ## AI-Powered Legislative Intelligence for Strategic University Decision Support
 
-The Legislative Intelligence Platform transforms raw legislative text into structured, actionable intelligence to help the University of Illinois understand policy direction, emerging trends, and institutional impact.
+The Legislative Intelligence Platform converts unstructured legislative text into standardized intelligence signals, hybrid semantic retrieval systems, and statistically modeled trend insights for institutional decision-making. By combining large language models, adaptive feature standardization, hybrid semantic search, and seasonal anomaly detection, the platform enables the University of Illinois to understand policy direction, detect emerging signals, and assess institutional impact with analytical rigor.
 
-This site serves as the central gateway to the platform’s tools, analytics, and ongoing development.
+The platform enables leadership to move from reactive policy monitoring to proactive institutional strategy.
+
+This site serves as the central gateway to the platform’s tools, interactive intelligence interfaces, and ongoing research and development initiatives.
 
 ---
 
@@ -12,7 +14,7 @@ This site serves as the central gateway to the platform’s tools, analytics, an
 
 ### Search and Filter Interface
 
-Explore legislation using AI-extracted attributes including policy categories, legislative intent, beneficiaries, ideological alignment, and institutional impact indicators.
+Explore legislation using a hybrid intelligence interface that combines multi-dimensional structured filtering (policy domain, beneficiaries, impact severity, status, date, category) with semantic similarity search powered by vector embeddings. Results are ranked, enriched with standardized AI-extracted features, and support human-in-the-loop validation.
 
 [Launch Search Interface](https://huggingface.co/spaces/tajoshi2/RAG_Pipeline)
 
@@ -20,7 +22,7 @@ Explore legislation using AI-extracted attributes including policy categories, l
 
 ### Trends and Visualization Dashboard
 
-Analyze legislative activity across time, policy domains, and impact signals. Identify patterns, momentum shifts, and emerging areas of influence.
+Analyze seasonally adjusted legislative activity using 5-year monthly baselines, Z-score anomaly detection, regression-based trend modeling, and directional momentum analysis. The system identifies statistically significant deviations, accelerating categories, and emerging policy shifts. All anomaly detection is derived from historical seasonal baselines and regression-adjusted residual modeling to ensure analytical rigor.
 
 [Launch Visualization Dashboard](https://huggingface.co/spaces/ralate2/Legsislation_Data_2019_2026)
 
@@ -28,11 +30,11 @@ Analyze legislative activity across time, policy domains, and impact signals. Id
 
 ### Legislative Assistant (Conversational AI Interface)
 
-The Legislative Assistant leverages the most recent vectorized legislative dataset to provide structured, citation-backed responses to natural language queries.
+The Legislative Assistant delivers structured, citation-backed analysis of Illinois legislative activity in response to natural language questions. Built within the Microsoft Copilot AI Agent framework using GPT-4.1, it operates in a controlled, session-based environment designed for contextual reasoning and rapid legislative interpretation.
 
-This assistant was developed in Microsoft Copilot using the GPT-4.1 model within the Microsoft AI Agent chatbot framework.
+This assistant complements the platform’s deployed semantic retrieval system (MiniLM + FAISS). While the retrieval system supports structured filtering and vector-based similarity search, the Legislative Assistant focuses on synthesis, explanation, and executive-ready insight.
 
-Responses are structured as:
+Responses are structured to include:
 
 - **Short answer** (1–3 sentences)  
 - **What the bill does**  
@@ -47,10 +49,9 @@ Responses are structured as:
 
 ### Network and Influence Graphs (Legacy Prototype – October 2025)
 
-This feature was originally developed in October 2025 and represents an earlier prototype phase. It demonstrates how LLaMA-extracted features can be used to visualize relationships between legislative goals, beneficiaries, policy domains, and institutional impact patterns.
+This feature was originally developed in October 2025 as an early-stage prototype. It demonstrates how LLaMA-extracted features can be used to map relationships across legislative goals, beneficiaries, policy domains, and institutional impact patterns.
 
-We plan to further develop and showcase this functionality in the future to highlight the relational intelligence generated from the breadth of extracted features.
-Visualize relationships between legislative goals, beneficiaries, policy domains, and institutional impact patterns to support advanced trend modeling and strategic analysis.
+We plan to further develop this capability to advance relational intelligence modeling and support deeper cross-domain trend analysis.
 
 [View Interactive Legislative Network Graphs →](https://tayler-erbe.github.io/Legislative-Network-Graphs/)
 
@@ -74,7 +75,11 @@ The system follows an end-to-end analytical pipeline:
 
 Legislative data is sourced directly from **LegiScan** and the **Illinois General Assembly (ILGA) FTP site**, ensuring access to official bill text, status updates, and metadata across sessions.
 
+Data is refreshed on a recurring weekly ingestion schedule to reflect newly introduced and updated legislation.
+
 Raw legislative files are standardized into structured, queryable formats for downstream analytics.
+
+Current scope: Illinois legislative data (expandable architecture).
 
 ---
 
@@ -107,17 +112,19 @@ Large language models extract structured legislative intelligence from each bill
 
 These features convert unstructured legislative language into structured intelligence signals.
 
+All AI-generated outputs are structured, standardized, and designed for human review within institutional governance processes.
 ---
 
 ### 4. Scoring, Standardization, and Analytical Enrichment
 
 Extracted features are normalized through multiple independent analytical methods, including:
 
-- Static institutional category frameworks  
-- Unsupervised clustering (e.g., K-Means topic modeling)  
-- Category crosswalk mapping  
-- Feature normalization and deduplication  
-- Entity and action extraction for relational modeling  
+- Adaptive clustering with silhouette-based K selection
+- LLM-assisted cluster naming
+- Dictionary-based mapping for stable features
+- Boolean re-prompt validation for structured signals (e.g., Original Law)
+- Feature normalization & schema alignment (STD columns)
+- Residual modeling for long-term trend adjustment
 
 Entities (actors, institutions, policy objects) and actions (mandates, appropriations, restrictions) are extracted to construct relationship networks that map how legislative goals connect across domains, enabling advanced network graph analysis and influence modeling.
 
@@ -133,16 +140,21 @@ The platform enables filtering by policy domain, impact rating, beneficiaries, i
 
 ## Platform Vision
 
-The Legislative Intelligence Platform is designed to evolve into a comprehensive institutional intelligence system capable of:
+The Legislative Intelligence Platform is designed to evolve into a comprehensive institutional intelligence system that supports both active analytical capabilities and ongoing research initiatives.
+
+### Active Capabilities
 
 - Early signal detection  
-- Cross-policy and cross-state influence modeling  
-- Probability-of-passage research  
+- Statistical anomaly modeling with seasonal baselines  
+- Hybrid semantic + structured legislative retrieval  
 - AI-assisted executive reporting  
-- Institutional risk monitoring  
-- Legislative relationship graph analytics  
+- Institutional impact monitoring  
 
----
+### Research & Development Initiatives
+
+- Probability-of-passage modeling  
+- Cross-policy and cross-state influence modeling  
+- Advanced legislative relationship graph analytics  
 
 ## Contributors
 
