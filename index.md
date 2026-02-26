@@ -14,7 +14,7 @@ This site serves as the central gateway to the platform’s tools, analytics, an
 
 Explore legislation using AI-extracted attributes including policy categories, legislative intent, beneficiaries, ideological alignment, and institutional impact indicators.
 
-[Launch Search Interface](https://huggingface.co/spaces/tjl8/legislationv2-2226)
+[Launch Search Interface](https://huggingface.co/spaces/tajoshi2/RAG_Pipeline)
 
 ---
 
@@ -22,13 +22,15 @@ Explore legislation using AI-extracted attributes including policy categories, l
 
 Analyze legislative activity across time, policy domains, and impact signals. Identify patterns, momentum shifts, and emerging areas of influence.
 
-[Launch Visualization Dashboard](https://huggingface.co/spaces/ralate2/Legislation_Dashboard)
+[Launch Visualization Dashboard](https://huggingface.co/spaces/ralate2/Legsislation_Data_2019_2026)
 
 ---
 
 ### Legislative Assistant (Conversational AI Interface)
 
 The Legislative Assistant leverages the most recent vectorized legislative dataset to provide structured, citation-backed responses to natural language queries.
+
+This assistant was developed in Microsoft Copilot using the GPT-4.1 model within the Microsoft AI Agent chatbot framework.
 
 Responses are structured as:
 
@@ -43,8 +45,11 @@ Responses are structured as:
 
 ---
 
-### Network and Influence Graphs (In Development)
+### Network and Influence Graphs (Legacy Prototype – October 2025)
 
+This feature was originally developed in October 2025 and represents an earlier prototype phase. It demonstrates how LLaMA-extracted features can be used to visualize relationships between legislative goals, beneficiaries, policy domains, and institutional impact patterns.
+
+We plan to further develop and showcase this functionality in the future to highlight the relational intelligence generated from the breadth of extracted features.
 Visualize relationships between legislative goals, beneficiaries, policy domains, and institutional impact patterns to support advanced trend modeling and strategic analysis.
 
 [View Interactive Legislative Network Graphs →](https://tayler-erbe.github.io/Legislative-Network-Graphs/)
