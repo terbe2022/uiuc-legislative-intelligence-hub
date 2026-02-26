@@ -63,7 +63,9 @@ We plan to further develop this capability to advance relational intelligence mo
 
 ### End-to-End System Workflow
 
-View the complete architectural workflow diagram below:
+Below is the complete architectural workflow of the Legislative Intelligence Platform:
+
+![Legislative Intelligence Workflow](assets/mermaid-diagram.png)
 
 [Open Full Workflow Diagram (Mermaid)](https://mermaid.ai/d/992dd461-52b4-4677-aee1-7e2746aff522)
 
